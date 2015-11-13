@@ -10,7 +10,7 @@ def main():
 
     #
     # Reads the CSV file containing the data
-    ds = pd.read_csv("../data/Census01.csv")
+    ds = pd.read_csv("../data/census-us.csv")
 
     #
     # Defines the explanatory variables per categories (nominal and numerical, the latter needed encoding)
